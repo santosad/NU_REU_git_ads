@@ -22,7 +22,7 @@ def plot_freaking_sine_boi():
     
     while x < 2 * np.pi:
         xs.append(x)
-        ys.append(np.cos(x))
+        ys.append(x)
         x += x_step
     
     plt.plot(xs, ys, 'green')
